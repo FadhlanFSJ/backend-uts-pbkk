@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Nov 2023 pada 02.52
+-- Waktu pembuatan: 20 Nov 2023 pada 02.04
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.0.28
 
@@ -40,8 +40,9 @@ CREATE TABLE `list_artikel` (
 --
 
 INSERT INTO `list_artikel` (`id`, `title`, `date`, `image`, `content`) VALUES
-('001', 'Artikel 1', '2023-11-11', 'https://images.unsplash.com/photo-1694336780623-54537ce55ff6', 'Content Artikel 1'),
-('002', 'Artikel 2', '2023-11-11', 'https://images.unsplash.com/photo-1694336780623-54537ce55ff6', 'Content 2');
+('001', 'Institut Teknologi Telkom Surabaya Gelar Wisuda Ke', '2023-11-11', 'https://10tph8qrsp2c6.cdn.shift8web.com/wp-content/uploads/2023/10/wisuda.jpg', 'Institut Teknologi Telkom Surabaya (ITTelkom Surabaya) menggelar Wisuda ke-3 Tahun Akademik 2022/2023 di Lapangan Tenis ITTelkom Surabaya, Sabtu (14/10/2023). Periode kali ini melibatkan 271 lulusan dari tujuh program studi yang menandai awal perjalanan m'),
+('002', 'Panduan Sukses Meraih Pendanaan Riset dan Inovasi ', '2023-11-11', 'https://10tph8qrsp2c6.cdn.shift8web.com/wp-content/uploads/2023/10/BRIN.jpeg', 'Lembaga Penelitian dan Pengabdian Masyarakat (LPPM) Institut Teknologi Telkom Surabaya (ITTelkom Surabaya) menggelar workshop yang membuka rahasia sukses dalam meraih pendanaan riset dan inovasi dari BRIN.'),
+('3', 'Desa Cerdas: Kolaborasi ITTelkom Surabaya dan ADID', '2023-10-27', 'https://10tph8qrsp2c6.cdn.shift8web.com/wp-content/uploads/2023/10/institut-teknologi-telkom-surabaya.jpg', 'Pada Kamis (26/10/2023), ruang rapat lantai 3 Institut Teknologi Telkom Surabaya (ITTelkom Surabaya) menjadi panggung dari sebuah peristiwa bersejarah yang akan mengubah wajah pengembangan desa di Indonesia. Hari itu, ITTelkom Surabaya dan Asosiasi Dosen ');
 
 --
 -- Indexes for dumped tables
